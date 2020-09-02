@@ -8,5 +8,5 @@
 
 <h2>Exercicio Dia 01/09/2020</h2>
 <ul>
- <a href="#"><li>Exercicio 1 - Site de Horário das Aulas</li></a>
+ <a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios/HorarioAulas"><li>Exercicio 1 - Site de Horário das Aulas</li></a>
  </ul>
