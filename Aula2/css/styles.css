@@ -1,0 +1,49 @@
+body{
+    background-color: cornflowerblue;
+}
+#cpu{
+    margin-top: 50px;
+    width: 500px;
+    height: 238px;
+}
+
+#ram{
+    margin-top: 50px;
+    width: 500px;
+    height: 238px; 
+    margin-left: 20px;  
+}
+
+#hdd{
+        margin-top: 65px;
+        width: 500px;
+        height: 238px;  
+}
+
+#gabinete{
+    margin-top: -100px;
+    width: 500px;
+    height: 238px;
+}
+
+#fonte{
+    width: 500px;
+    height: 238px;
+    margin-left: 20px; 
+}
+
+#placa-mae{
+    margin-top: -100px;
+    width: 500px;
+    height: 238px;
+    margin-left: 20px; 
+}
+
+#gif-bilada{
+    margin-left: 1075px;
+    margin-top: -870px;
+}
+
+#btn-top{
+    margin-top: 100px;
+}
