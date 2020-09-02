@@ -1,0 +1,26 @@
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+ 
+}
+
+#time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+th{
+    background-color:gray
+}
+
+td{
+    background-color: #8b0000;
+    color: white;
+    font: 15px arial, sans-serif;
+}
+
+body{
+    background-color: cornflowerblue;
+}
