@@ -7,7 +7,7 @@
 
 <h2>Exercicio 01-09</h2>
 <ul>
- <a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios/HorarioAulas"><li>Exercicio 1 - Site de Horário das Aulas</li></a>
+ <a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-01-09/HorarioAulas"><li>Exercicio 1 - Site de Horário das Aulas</li></a>
  </ul>
 
 <h2>Exercicios 08-09</h2>
