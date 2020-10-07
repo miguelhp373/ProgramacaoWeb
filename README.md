@@ -1,31 +1,48 @@
-<h1>Exercicios Feitos em Aula</h1>
+# Conteudo de Programação Web Feito Durante o Curso
 
-<h2>Dia 28/08/2020</h2>
-<ul>
- <a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Aula2"><li>Aula 2</li></a>
-</ul>
+## Dia 28/08/2020
 
-<h2>Exercicio 01-09</h2>
-<ul>
- <a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-01-09/HorarioAulas"><li>Exercicio 1 - Site de Horário das Aulas</li></a>
- </ul>
-<h2>Exercicios 08-09</h2>
-<ul>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-02"><li>Exercicio 02</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-03/ola-mundo"><li>Exercicio 03</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-04"><li>Exercicio 04</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-05"><li>Exercicio 05</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-06"><li>Exercicio 06</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-07"><li>Exercicio 07</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-08"><li>Exercicio 08</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-09"><li>Exercicio 09</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-10"><li>Exercicio 10</li></a>
-</ul>
+- [Aula 2](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Aula2)
+ 
+***
 
-<h2>Exercicio 06-10</h2>
-<ul>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex01.html"><li>Exercicio 01</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex02.html"><li>Exercicio 02</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex03.html"><li>Exercicio 03</li></a>
-<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex04.html"><li>Exercicio 04</li></a>
-</ul>
+## Exercicio Dia 01/09/2020
+
+- [Exercicio 1 - Site de Horário das Aulas](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-01-09/HorarioAulas)
+
+***
+
+##  Exercicios Dia 08/09/2020
+
+- [Exercicio 02](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-02)
+
+- [Exercicio 03](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-03/ola-mundo)
+
+- [Exercicio 04](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-04)
+
+- [Exercicio 05](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-05)
+
+- [Exercicio 06](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-06)
+
+- [Exercicio 07](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-07)
+
+- [Exercicio 08](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-08)
+
+- [Exercicio 09](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-09)
+
+- [Exercicio 10](https://github.com/miguelhp373/ProgramacaoWeb/tree/master/Exercicios-08-09/html/ex-10)
+
+***
+
+## Exercicios Dia 06/10/2020
+
+- [Exercicio 01](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex01.html)
+
+- [Exercicio 02](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex02.html)
+
+- [Exercicio 03](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex03.html)
+
+- [Exercicio 04](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex04.html)
+
+
+
