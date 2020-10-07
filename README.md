@@ -24,8 +24,8 @@
 
 <h2>Exercicio 06-10</h2>
 <ul>
-<a href=""><li>Exercicio 01</li></a>
-<a href=""><li>Exercicio 02</li></a>
-<a href=""><li>Exercicio 03</li></a>
-<a href=""><li>Exercicio 04</li></a>
+<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex01.html"><li>Exercicio 01</li></a>
+<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex02.html"><li>Exercicio 02</li></a>
+<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex03.html"><li>Exercicio 03</li></a>
+<a href="https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Exercicios-06-10/ex04.html"><li>Exercicio 04</li></a>
 </ul>
