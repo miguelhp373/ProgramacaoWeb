@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Cadastral</title>
+</head>
+<style>
+    
+    
+    #form input{
+        width:300px;
+        height:25px;
+        border-radius: 30px;
+        border:none;
+           
+     }
+     #form input:focus{
+         box-shadow: 0 0 0 0;
+         outline:0;
+     }
+
+    
+
+    body{
+        margin:0;
+        padding:0;
+        background-color:rgb(50, 202, 126);
+    }
+
+    #form{
+        border-radius:30px;
+        background-color:rgb(182, 81, 106);
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin:0px auto;
+        margin-top:50px;
+        margin-bottom: 80px;
+        
+        width:800px;
+        height:400px;
+        color:white;
+        padding: 8px;
+
+        box-shadow: 0px 9px 20px black;
+    }
+
+    #form p{
+        font: 17px arial, sans-serif;
+    }
+
+    #form h1 {
+        font: 28px arial, sans-serif;
+    }
+
+    #form h3 {
+        font: 20px arial, sans-serif; 
+    }
+
+    #clear{
+        height: 40px;
+        width: 90px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0 0 0 0;
+         outline:0;
+    }
+   
+
+    
+</style>
+<body>
+    <div id="form">
+        <form action="">
+            <center> <h1>Ficha Cadastral</h1></center>
+            <input autofocus type="email" name="nome" id="nome" placeholder="Nome:" style="width:400px">
+            <br><br>
+            <input type="number" name="rg" id="rg" placeholder="RG:" style="width:200px">
+            <input type="number" name="cpf" id="cpf"  placeholder="CPF:" style="width:200px">
+            <br><br>
+            <input type="text" name="Endereco" id="endereco" placeholder="Endereco:" style="width:400px">
+            <br><br>
+            <select name="gender" id="gender" style="border-radius: 30px;border:none;height:25px;">
+                <option value="gender" id="masc" style="border-radius: 30px;">Masculino</option>
+                <option value="gender" id="Femi" style="border-radius: 30px;">Feminino</option>
+            </select>
+            &nbsp;
+            <label for="Nasc" style="font:18px arial, sans-serif">Data de Nascimento:</label>
+            <input type="date" name="Nasc" id="nasc" placeholder="data" style="border-radius: 30px;border:none;height:25px;width:150px">
+            <br><br>
+        <div id="opt">
+            <label for="opt">Situação Civil:</label>
+            <input type="radio" name="sit" id="solt" checked  style="width:15px;height:15px;">Solteiro(a)
+            <input type="radio" name="sit" id="Cas" style="width:15px;height:15px;" >Casado(a)
+            <input type="radio" name="sit" id="viu" style="width:15px;height:15px;">Viuvo(a)
+         </div>
+         <br><br>
+        <center><button type="reset" id="clear">Limpar Dados</button></center>
+
+        </form>
+        <br>
+    </div>
+</body>
+</html>
