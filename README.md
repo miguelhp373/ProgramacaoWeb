@@ -48,6 +48,6 @@
 
 ## Aula 9
 
-- [Formulário]()
-- [Formulário de Login]()
-- [Ficha Cadastral]()
+- [Formulário](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Aula9/formulario.html)
+- [Formulário de Login](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Aula9/login.html)
+- [Ficha Cadastral](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Aula9/fichacadastral.html)
