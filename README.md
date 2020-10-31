@@ -51,3 +51,14 @@
 - [Formulário](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Aula9/formulario.html)
 - [Formulário de Login](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Aula9/login.html)
 - [Ficha Cadastral](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/Aula9/fichacadastral.html)
+
+
+***
+
+## ExerciciosdeFolmularios-20-10
+
+- [Exercicio 01](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/ExerciciosdeFolmularios-20-10/ex01/index.html)
+- [Exercicio 02](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/ExerciciosdeFolmularios-20-10/ex02/index.html)
+- [Exercicio 03](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/ExerciciosdeFolmularios-20-10/ex03/index.html)
+- [Exercicio 04](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/ExerciciosdeFolmularios-20-10/ex04/index.html)
+- [Exercicio 05](https://github.com/miguelhp373/ProgramacaoWeb/blob/master/ExerciciosdeFolmularios-20-10/ex05/index.html)
