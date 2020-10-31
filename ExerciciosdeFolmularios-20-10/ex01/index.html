@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tarefa Formulários - Ex 01</title>
+	</head>
+	<body>
+	
+		<h1>Cadastro de Funcionário</h1>
+		<form>
+			<fieldset style="border-color:black">
+				<legend style="color:black">Detalhes Pessoais</legend>
+				<span class="name">Nome:</span>
+                <input type="text" name="name" id="input-n" class="name" style="width: 300px;margin-left: 40px;"> <br>
+				<span class="lastname">Sobrenome:</span>
+                <input type="text" name="lastname" id="input-ln" class="lastname" style="width: 300px;margin-left: 40px;"> <br>
+				<span class="born">Data de nascimento:</span>
+                <input type="date" name="born" id="input-b" class="born" style="width: 150px;">	
+			</fieldset>	
+			<fieldset style="border-color:black">
+				<legend style="color:black">Detalhes Profissionais</legend>
+				<span class="form-select">Departamento:</span>
+                        <select name="formacao" class="form-select">
+                            <option value="formacao">Administrativo</option>
+                            <option value="formacao">Financeiro</option>
+                            <option value="formacao">Compras</option>
+                            <option value="formacao">Vendas</option>
+                        </select> <br>
+				<span class="name">Código Funcionário:</span>
+				<input type="text" name="id" id="input-id" class="id" style="width: 300px.margin-left: 40px;">
+			</fieldset>
+			<input type="submit" value="Incluir Funcionário">
+		</form>
+	</body>
+</html>
+
+
+
+
+

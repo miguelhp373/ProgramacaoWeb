@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex04</title>
+    <!--Desenvolvido Por Miguel Henrique-->
+</head>
+<style>
+    body {
+        margin: 0px auto;
+        padding: 0px;
+        background-color: #0984e3;
+        color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+
+    #all-items{
+        height:900px;
+    }
+
+    #position,
+    #position2 {
+        margin-top: -60px
+    }
+
+    #form {
+        background-color:#74b9ff;
+        width: 800px;
+        height: 850px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: 0px 9px 20px black;
+
+    }
+
+    #dados1 {
+        margin-top:50px;
+        width: 600px;
+        height: 220px;
+        border-radius: 30px;
+        border: 2px solid black;
+    }
+
+    #dados2 {
+        width: 600px;
+        height: 200px;
+        border-radius: 30px;
+        border: 2px solid black;
+    }
+
+    #dados3 {
+        width: 600px;
+        height: 220px;
+        border-radius: 30px;
+        border: 2px solid black;
+    }
+
+    #icon-person,
+    #icon-email,
+    #icon-house {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .name,
+    .born {
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    #input-n,
+    #input-b {
+        margin-left: 0px;
+    }
+
+    #mas,
+    #fem,
+    .form-select {
+        margin-top: 15px;
+    }
+
+    .cpf,
+    #input-c {
+        margin-top: 15px;
+    }
+
+    input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }
+
+    input {
+        border-radius: 30px;
+        border: none;
+        height: 20px;
+
+    }
+
+    .inp-d2 {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    #position-1,
+    #position-2,
+    #position-3,
+    #position-4 {
+        margin-left: 2px;
+    }
+
+    .inp-l {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #position3 {
+        margin-top: -60px;
+        margin-left: 70px;
+    }
+
+    button{
+        border-radius: 30px;
+        border: none;
+        height: 30px;
+        background-color: #2d3436;
+        color: white;
+    }
+
+    #ft-final{
+        margin: 0px auto;
+        padding: 0px auto;
+        width: 100%;
+        height: 80px;
+        background-color: #0d5c91;
+        margin-bottom:0px ;
+        margin-top: 15px;
+    }
+</style>
+
+<body>
+    <div id="all-items">
+        <h1 align="center">Cadastro de Clientes</h1>
+        <div id="form">
+
+            <fieldset id="dados1">
+                <legend>Dados Pessoais</legend>
+                <img src="assets/person-fill.svg" style="width: 80px;height: 80px;" id="icon-person">
+                <form>
+                    <div id="position">
+                        <span class="name">Nome:</span>
+                        <input type="text" name="name" id="input-n" class="name"
+                            style="width: 300px;margin-left: 40px;">
+                        <br>
+                        <span class="born">Nascimento:</span>
+                        <input type="text" name="born" id="input-b" class="born" style="width: 150px;">
+                        <br>
+                        <span>Sexo:</span>
+                        <input type="radio" name="gender" id="mas" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="gender" id="fem">
+                        <label for="fem">Feminino</label>
+                        <br>
+                        <span class="form-select">Formação:</span>
+                        <select name="formacao" class="form-select">
+                            <option value="formacao">Ensino Fundamental Completo</option>
+                            <option value="formacao">Ensino Fundamental incompleto</option>
+                            <option value="formacao">Ensino Médio Completo</option>
+                            <option value="formacao">Ensino Médio incompleto</option>
+                            <option value="formacao">Ensino Superior Completo</option>
+                            <option value="formacao">Ensino Superior Incompleto</option>
+                            <option value="formacao">Doutorado</option>
+                            <option value="formacao">Pós Graduação</option>
+                        </select>
+                        <span>Profissão:</span>
+                        <select name="profissao" id="form-prof">
+                            <option value="profissao">Administrador</option>
+                            <option value="profissao">Designer de Interiores</option>
+                            <option value="profissao">Desenvolvedor de Sistemas</option>
+                            <option value="profissao">Engenheiro de Dados</option>
+                            <option value="profissao">Marketing Digital</option>
+                        </select>
+                        <br>
+                        <span class="cpf">Cpf:</span>
+                        <input type="text" name="cpf" id="input-c">
+                    </div>
+            </fieldset>
+            <br>
+            <fieldset id="dados2">
+                <legend>Contato</legend>
+                <img src="assets/envelope-open-fill.svg" style="width: 80px;height: 80px;" id="icon-email">
+                    <div id="position2">
+                        <span class="inp-d2">Email:</span>
+                        <input type="email" name="email" class="inp-d2" id="position-1"
+                            style="width: 300px; margin-left: 24px;">
+                        <br>
+                        <span class="inp-d2">Telefone:</span>
+                        <input type="tel" name="Tel" class="inp-d2" id="position-2"
+                            style="width: 150px;margin-left: 5px;">
+                        <br>
+                        <span class="inp-d2">Celular:</span>
+                        <input type="tel" name="cel" class="inp-d2" id="position-3"
+                            style="width: 150px;margin-left: 15px;">
+                        <br>
+                        <span class="inp-d2">Skype:</span>
+                        <input type="email" name="skype" class="inp-d2" id="position-4"
+                            style="width: 150px;margin-left: 23px;;">
+                    </div>
+
+            </fieldset>
+            <br>
+            <fieldset id="dados3">
+                <legend>Endereço</legend>
+                <img src="assets/house-door-fill.svg" style="width: 80px;height: 80px;" id="icon-house">
+                    <div id="position3">
+                        <span class="inp-l">Logradouro: </span>
+                                <input type="text" name="log" class="inp-l" id="position-5">
+                                <br>
+                                <span class="inp-l">Número:</span>
+                                <input type="number" name="num" class="inp-l" id="position-6"
+                                    style="width: 85px;margin-left: 45px;">
+                                <span class="inp-l" style="margin-right: 56px;"></span>Cep:</span>
+                                <input type="text" name="cep" class="inp-l" id="position-7"
+                                    style="width: 85px;margin-left: 30px;">
+                                <br>
+                                <span class="inp-l">Bairro:</span>
+                                <input type="text" name="Bairro" class="inp-l" id="position-8" style="width: 140px;margin-left: 60px;">
+                                <span class="inp-l" style="margin-left: 20px;">Cidade:</span>
+                                <input type="text" name="cidade" class="inp-l" id="position-9" style="width: 130px;margin-left: 10px;">
+                                <br>
+                                <span class="inp-l" >Estado:</span>
+                                <select id="estado" name="estado" class="inp-l" style="margin-left: 52px;border-radius: 30px;height: 25px;">
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                    <option value="EX">Estrangeiro</option>
+                                </select>
+                                <br>
+                                <span class="inp-l">Complemento:</span>
+                                <input type="text" name="comp" class="inp-l" id="position-11" style="margin-left: 3px;">
+                    </div>
+                    
+            </fieldset>
+            <br>
+            <span><button type="submit" >Salvar Cliente</button> &nbsp; <button type="reset">Limpar Dados</button></span>
+        </form>
+        </div>
+        <br>
+        <footer id="ft-final">
+            <center>Feito Com 💜 Por Miguel Henrique</center>
+        </footer>
+    </div>
+    <br>
+</body>
+
+</html>

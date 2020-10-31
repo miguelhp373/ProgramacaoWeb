@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			table, th, td {
+				color: darkblue;
+				border-collapse: collapse;
+				border: 1px solid white;
+				background-color: lightblue;
+				vertical-align: top;
+			}
+		</style>
+		<title>Tarefa Formulários - Ex 03</title>
+	</head>
+	<body>
+		<h1 style="margin-left:150px;">Cadastrar Produto</h1>
+		<form>
+			<table style="width:40%">
+			<tr>
+				<td>Descrição:</td>
+				<td><input type="text" name="description" class="description" id="description" style="width: 365px;"></td>
+			</tr>		
+			<tr>
+				<td>Categoria:</td>
+				<td>
+					<select name="category" class="form-select">
+                            <option value="category">Cabelo</option>
+                            <option value="category">Cuidados com a Pele</option>
+                            <option value="category">Unhas</option>
+                            <option value="category">Depilação</option>
+                    </select>
+				</td>
+			</tr>
+			<tr>
+				<td>Fornecedor:</td>
+				<td><input type="text" name="description" class="description" id="description" style="width: 365px;"></td>
+			</tr>
+			<tr>
+				<td>Unidade:</td>
+				<td>
+					<select name="unit" class="form-select">
+                            <option value="unit">Unitário</option>
+                            <option value="unit">Grama</option>
+                    </select>
+				</td>
+			</tr>
+			<tr>
+				<td>Observações:</td>
+				<td><textarea id="caixacom" name="obs" rows="4" cols="50"> </textarea></td>
+			</tr>
+			<br>
+			<tr>
+				<td colspan="2" align="center" style="background-color:white;">
+					<input type="reset" value="Limpar">
+					<input type="submit" value="Cadastrar">	
+				</td>
+			</tr>
+		</form>
+	</body>
+</html>
+
+
+
+
+
