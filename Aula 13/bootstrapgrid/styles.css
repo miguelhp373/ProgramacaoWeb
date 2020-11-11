@@ -1,0 +1,46 @@
+  .container-fluid {
+            height: 100vh;
+        }
+
+        .container {
+            margin-top: 20px
+        }
+
+        .cards {
+            margin-top: 65px;
+        }
+
+        .card-shop {
+            height: 400px;
+            width: 300px;
+            border-radius: 20px;
+            background-color: #2980b9;
+            color: white;
+
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .card-shop:hover {
+            box-shadow: 0 0 9px #747474;
+        }
+
+        .card-shop img {
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+        }
+
+        h3 {
+            margin-top: 50px;
+        }
+
+        .btn-sell {
+            height: 40px;
+            text-align: center;
+        }
+
+        .navbar-dark .navbar-toggler {
+            color: white;
+            border-color: white;
+        }
